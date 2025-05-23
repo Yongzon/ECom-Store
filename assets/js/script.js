@@ -13,7 +13,7 @@
             formData.append('productId', productId);
             formData.append('quantity', quantity);
 
-            fetch('/cart-process.php', {
+            fetch('cart-process.php.', {
                 method: 'POST',
                 body: formData,
                 headers: {
